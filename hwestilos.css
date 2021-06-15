@@ -1,23 +1,36 @@
-body{
-  background: url(img/logoH.jpg)
+body {
+    background: url(img/logoH.jpg)
 }
+
 h1 {
-  background-color: #125;
+    background-color: rgba(17, 34, 85, 0.555);
 }
+
 img {
-  width: 400px;
-  height: auto;
+    width: 400px;
+    height: auto;
 }
-#thirDiv{
-  width: 500px;
-  height: 600px;
-  background-color: red;
-  padding: 50px;
+
+#thirDiv {
+    width: auto;
+    height: auto;
+    background-color: rgba(221, 46, 46, 0.726);
+    padding: 50px;
 }
+
 #spanId {
-  font-size: 18px;
-  margin: 50px;
+    font-size: 18px;
+    margin: 50px;
 }
+
 div {
-  text-align: center;
+    text-align: center;
+}
+
+.divClass {
+    background-color: #a7888188;
+}
+
+.divClass2 {
+    background-color: #88525288;
 }
