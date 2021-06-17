@@ -4,11 +4,11 @@
 ---
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-	* Variables
-	* Strings
+	* Variables : es un espacio de memoria, es como un paqueadero, el espacio para parquear es el espacio de memoria y el carro es la variable, cuando una carro se estaciona esta utilizando el espacio de memoria y si el se va deja nuevamente el espacio libre para que otro carro (variable ) lo ocupe.
+	* Strings: son todos los simbolos, palabras, numneros, que podemos escribir y al juntarloes creamos una cadena de caracteres.
 	* Funciones (argumentos, `return`)
-	* Declaraciones `if`
-	* Valores booleanos (`true`, `false`)
+	* Declaraciones `if`: son decisiones si o no, es similar a cuando te ofrecen dos juguetes y tienes que elejir entre uno de ellos.
+	* Valores booleanos (`true`, `false`) es similar a una las tomas de deciciones pero en esta la diferencia es que es verdadero o falso, como cuando tienes un esfero rojo y te dicen ese esfero es azul, tu sabes que es falso.
 
 
 2. Instalar Node y NPM. NPM se incluye con Node. https://nodejs.org/en/download/
