@@ -174,6 +174,7 @@ function operadoresLogicos(num1, num2, num3) {
 }
 
 function esPrimo(numero) {
+
     // Devuelve "true" si "numero" es primo
     // De lo contrario devuelve "falso"
     // Pista: un número primo solo es divisible por sí mismo y por 1
@@ -184,7 +185,7 @@ function esPrimo(numero) {
 
         for (i = 2; i < numero; i++) {
             result = numero % i;
-            if (result === 0 && i != numero) {
+            if (result === 0) {
                 bandera = false;
             }
         }
