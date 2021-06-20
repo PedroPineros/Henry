@@ -26,18 +26,22 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var i ;
-  for(var i = 0; i < array.length; i++ ){
-    console.log(array[i] + 1)
+  let suma = 1;
+  let array2 = [];
+   for(let i = 0; i < array.length; i++ ){
+    array[i]  += suma;
+    }
+    return array;
   }
-  //return (array[i] + 1);
-}
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+   array.push(elemento);
+   return array;
+  
 }
 
 
@@ -46,6 +50,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  array.unshift(elemento);
+  return array;
 }
 
 
@@ -55,6 +61,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  return palabras.join(" ")
 }
 
 
@@ -62,13 +69,23 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
-}
+  if(array){
+    for(let i = 0; i < array.length; i++){
+
+    }
+  }else{
+      return false
+    }
+  }
+  
+    
 
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+ 
 }
 
 
