@@ -30,6 +30,7 @@ function incrementarPorUno(array) {
     let array2 = [];
     for (let i = 0; i < array.length; i++) {
         array[i] += suma;
+        //array2.push(array[index] + 1)
     }
     return array;
 }
@@ -214,15 +215,15 @@ function todosIguales(arreglo) {
     //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
     //retornar true, caso contrario retornar false.
     //Escribe tu código aquí  
-    let x = arreglo
- 
-     
-        if(arreglo === x){
-          return true
-        }else{
-            return false;
-        }
-      
+    var ar2 = arreglo;
+var con = 0;
+for(let i = 0; i < arreglo.length; i++){
+  if(arreglo[0] === ar2[i + 1]){
+  return true;
+  }else{
+ return false; 
+ }
+}    
 }
 
 
@@ -231,14 +232,36 @@ function mesesDelAño(array) {
     // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
     //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
     // Tu código:
+var ar2 = [];
+for(let i = 0; i < array.length; i++){
+  if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
+    ar2.push(array[i])
+    
+  }
 }
+if(ar2.length === 3){
+    return ar2;
+}
+    return ("No se encontraron los meses pedidos");
+
+} 
 
 
 function mayorACien(array) {
     //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
     //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
     // Tu código:
+   var cont = [];
+    for(let i = 0; i < array.length;i++){
+        if(array[i] > 100){
+            cont.push(array[i])
+       
+        }
+    }
+    return cont;
+
 }
+
 
 
 function breakStatement(numero) {
