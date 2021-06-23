@@ -296,14 +296,18 @@ function continueStatement(numero) {
     // Tu código:
     var array3 = [];
     for (let i = 0; i < 10; i++) {
-        numero = numero + 2
-        array3.push(numero)
 
-        if (i == 5) {
+
+        if (i === 5) {
             continue;
+        } else {
+            numero = numero + 2
+            array3.push(numero)
         }
     }
-    return array3
+    return array3;
+
+
 }
 
 
